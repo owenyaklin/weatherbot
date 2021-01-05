@@ -1,0 +1,24 @@
+{
+  "name": "slack-weather",
+  "version": "1.0.0",
+  "description": "_A Slackbot that gets weather conditions",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "index.js",
+    "dev-server": "ENV_FILE=.env.local index.js"
+  },
+  "repository": {},
+  "author": "",
+  "license": "MIT",
+  "bugs": {}
+}
